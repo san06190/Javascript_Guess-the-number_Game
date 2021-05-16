@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   flex-direction: column;
+   min-height: 100vh;
+
+}
+.container input{
+    height:30px;
+    width: 60px;
+    font-size: large;
+    font-weight: 600;
+    padding: 10px;
+}
+.container button{
+    margin: 30px;
+    height:60px;
+    width: 120px;
+    font-size: large;
+    padding: 10px;
+}
+#response{
+    margin: 20px;
+    font-style: italic;
+    font-weight: 500;
+}
