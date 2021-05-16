@@ -1,4 +1,4 @@
-const random = Math.ceil(Math.random() * 10);
+const random = Math.ceil(Math.random() * 100);
 let guess = 0;
 document.getElementById("guessSubmit").addEventListener("click", () => {
   let x = document.getElementById("guess").value;
